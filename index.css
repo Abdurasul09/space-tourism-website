@@ -139,7 +139,7 @@ select {
     background-color: hsl(var(--clr-light));
 }
 
-.bg-accent {
+.bg-white {
     background-color: hsl(var(--clr-white));
 }
 
@@ -152,7 +152,7 @@ select {
     color: hsl(var(--clr-light));
 }
 
-.text-accent {
+.text-white {
     color: hsl(var(--clr-white));
 }
 
