@@ -1,4 +1,13 @@
 /* ------------------------ */
+/* Custom properties        */
+/* ------------------------ */
+:root {
+    --clr-darck: 230 35% 7%;
+    --clr-light: 231 77% 90%;
+    --clr-white: 0 0% 100%;
+}
+
+/* ------------------------ */
 /* Reset                    */
 /* ------------------------ */
 
@@ -85,6 +94,34 @@ select {
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    white-space: nowrap; /* added line*/
+    white-space: nowrap;
+    /* added line*/
     border: 0;
+}
+
+/* colors */
+
+.bg-darck {
+    background-color: hsl(var(--clr-darck));
+}
+
+.bg-accent {
+    background-color: hsl(var(--clr-light));
+}
+
+.bg-accent {
+    background-color: hsl(var(--clr-white));
+}
+
+
+.text-darck {
+    color: hsl(var(--clr-darck));
+}
+
+.text-accent {
+    color: hsl(var(--clr-light));
+}
+
+.text-accent {
+    color: hsl(var(--clr-white));
 }
