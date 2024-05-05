@@ -1,0 +1,57 @@
+/* ------------------------ */
+/* Reset                    */
+/* ------------------------ */
+
+/* Reset box*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+picture,
+article,
+figure {
+    margin: 0;
+}
+
+/* set up the body */
+body{
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+/* make images easier to work with */
+img, 
+picture{
+    width: 100%;
+    display: block;
+}
+
+/* make form elelemnts easier to work with */
+input,
+button,
+textarea,
+select{
+    font: inherit;
+}
+
+/* remuve animation for people who've turned */
+@media(prefers-reduced-motion: reduce){
+    *,
+    *::before,
+    *::after{
+        animation-duration: 0.1ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
